@@ -1,0 +1,47 @@
+
+.a{
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 800;
+    font-style: italic;
+}
+.m{
+    color: red;
+    text-transform: capitalize;
+    text-align: right;
+    text-decoration: underline;
+    text-shadow: 4px 0px 3px red;
+}
+.h{
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: overline;
+    text-shadow: 4px 0px 3px green;
+}
+.e{
+    width: 300px;
+    height: 400px ;
+    object-fit: cover;
+    border: 2px solid black ;
+    box-shadow: 3px 2px 2px white
+}
+.s{
+width: 300px;
+height: 400px;
+    object-fit: contain;
+    border: 2px black solid;
+    box-shadow: 3px 2px 2px white; 
+}
+.t{
+    width: 300px;
+    height: 400px;
+    object-fit: fill;
+    border: 2px black solid;
+    box-shadow: 3px 2px 2px white;
+}
+.l{
+    width: 200px;
+    background: linear-gradient(to bottom right,red,yellow,green);
+}
